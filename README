@@ -5,7 +5,7 @@ Simple Kundera/Cassandra test example
 
 - requires local instance of cassandra (default ports etc)
 
-Build core : cd core-module ; mvn install
-Then build app : cd app-module ; mvn package
+Build core : cd core-package ; mvn install
+Then build app : cd app-package ; mvn package
 
 App is empty, all code is in a UT.
