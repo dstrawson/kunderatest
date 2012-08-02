@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: example.Test1
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.712 sec <<< FAILURE!
-testNewItem(example.Test1)  Time elapsed: 0.656 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.662 sec <<< FAILURE!
+testNewItem(example.Test1)  Time elapsed: 0.615 sec  <<< ERROR!
 com.impetus.kundera.KunderaException: java.lang.NullPointerException
 	at com.impetus.kundera.persistence.EntityManagerImpl.persist(EntityManagerImpl.java:285)
-	at example.Test1.testNewItem(Test1.java:20)
+	at example.Test1.testNewItem(Test1.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

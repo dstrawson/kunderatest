@@ -14,6 +14,9 @@ public class Thing {
 
 	@Column(name="title")
 	private String title;
+	
+	@Column(name="nothing")
+	private Long nothing;
 
 	public long getId() {
 		return id;
@@ -29,5 +32,13 @@ public class Thing {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	public Long getNothing() {
+		return nothing;
+	}
+
+	public void setNothing(Long nothing) {
+		this.nothing = nothing;
 	}
 }

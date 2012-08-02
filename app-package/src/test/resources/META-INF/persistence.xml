@@ -12,7 +12,7 @@
 			<property name="kundera.dialect" value="cassandra"/>
 			<property name="kundera.client.lookup.class" value="com.impetus.client.cassandra.pelops.PelopsClientFactory" />
             <property name="kundera.annotations.scan.package" value="core" />
-            <property name="kundera.ddl.auto.prepare" value="update"/>
+            <property name="kundera.ddl.auto.prepare" value="create"/>
 		</properties>		
 	</persistence-unit>
 </persistence>

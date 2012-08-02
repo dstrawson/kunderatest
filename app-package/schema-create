@@ -1,0 +1,4 @@
+
+create column family thing with comparator=AsciiType and
+	key_validation_class=LongType and column_metadata=[{column_name:
+	title, validation_class:UTF8Type, index_type: KEYS}];
